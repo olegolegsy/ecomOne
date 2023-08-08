@@ -170,10 +170,18 @@ h4 {
   padding: 0 0.75em 0 0;
 }
 
+.mobile-hide {
+  visibility: hidden;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 992px) {
   .container {
     padding: 0 2em;
+  }
+
+  .mobile-hide {
+    visibility: visible;
   }
 }
