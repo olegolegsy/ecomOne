@@ -59,7 +59,7 @@ ul {
 }
 
 img {
-  min-width: var(--percent100);
+  max-width: var(--percent100);
   vertical-align: middle;
 }
 
@@ -171,7 +171,7 @@ h4 {
 }
 
 .mobile-hide {
-  visibility: hidden;
+  display: none;
 }
 
 /* RESPONSIVE */
@@ -182,6 +182,6 @@ h4 {
   }
 
   .mobile-hide {
-    visibility: visible;
+    display: block;
   }
 }

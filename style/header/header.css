@@ -133,7 +133,7 @@ nav .fly-item {
 
 @media screen and (min-width: 992px) {
   .desktop-hide {
-    visibility: hidden;
+    display: none;
   }
 
   .logo a {
